@@ -3,10 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" href="style.css">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
   <style>
     body {
       margin: 0;
@@ -14,7 +10,7 @@
     }
 
     nav {
-      background-color: #a97c7c;
+      background-color: #999;
       padding: 15px;
       display: flex;
       justify-content: space-between;
@@ -35,7 +31,7 @@
     }
 
     #navbar-links li {
-      color: #5d3434;
+      color: #fff;
     }
   </style>
 </head>
@@ -44,8 +40,9 @@
   <nav>
     <img src="imag.png" alt="Logo" id="logo">
     <ul id="navbar-links">
+    
       <a href="#"><li class="fab fa-facebook"></li></a>
-      
+    
       <a href="#"><li class="fab fa-instagram"></li></a>
       <a href="#"><li class="fab fa-whatsApp"></li></a>
       
@@ -57,6 +54,7 @@
       <li><a href="contact.php">Contact</a></li>
       <a href="#" id="login-btn">Login</a>
       
+    </ul>
     </ul>
   </nav>
 
