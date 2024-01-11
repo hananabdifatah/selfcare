@@ -46,7 +46,45 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
+  <div class="row">
+    <h2 class="display-6 taxt-center" style="background-color:white"></h2>
+    <?php
+      require_once("connection.php");
+      $query="SELECT * FROM products";
+      $result=mysqli_query($con,$query);
+      while($row= mysqli_fetch_assoc($result))
+      {
+    ?>
+  <div class="col-md-4 md-4">
+     <div class="card" style="background-color:lightblue;">
+      <div class="card-header" style="background-color:pink;">
+    
 
+      <div class="card-body">
+        <p class="card-taxt"><?php echo $row['ID'];?></p>
+      </div>
+
+      <div class="card-body">
+        <p class="card-taxt"><?php echo $row['productname'];?></p>
+      </div>
+
+      <div class="card-body">
+        <p class="card-taxt"><?php echo $row['skintype'];?></p>
+      </div>
+
+      <div class="card-body">
+        <p class="card-taxt"><?php echo $row['price'];?></p>
+      </div>
+
+      <div class="card-body">
+        <p class="card-taxt"><?php echo $row['productdescription'];?></p>
+      </div>
+   </div>
+  </div>
+    <?php}?>
+   
+  </div>
+  
   <!-- Rest of your HTML content goes here -->
 
 </body>

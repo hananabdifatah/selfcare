@@ -42,8 +42,13 @@
                     </div> <!-- End of First Row -->
             
                 </div>
-            
+                
             </div>
+
+            
+            <?php
+                   include("footer.html");
+                   ?>
             <script src="js/bootstrap.min.js"></script>
     </body>
 </html>  

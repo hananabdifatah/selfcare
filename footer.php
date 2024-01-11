@@ -1,17 +1,4 @@
-<html>
-    <head>
-        <title>about</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-            <?php
-                include("nav.html");
-                ?>
-                    
-                    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -154,10 +141,4 @@
         <p>&copy;2024 our secret Secret Beauty. All right reserved </p>
     </div>
 </Footer>
-</body> 
-            </div>
-            
-        
-          <script src="js/bootstrap.min.js"></script>
-    </body>
-</html>
+</body>

@@ -14,16 +14,20 @@
     }
 
     nav {
-      background-color: #a97c7c;
-      padding: 15px;
+      background-color: #fcfcfc;
+      padding: 25px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
-
+.navbar-nav .nav-link{
+      color:black;
+      margin: left 100px;
+      font-weight: bold;
+    }
     #logo {
-      max-width: 100px;
-      height: auto;
+      max-width: 500px;
+      height: 100px;
     }
 
     #navbar-links {
@@ -35,17 +39,18 @@
     }
 
     #navbar-links li {
-      color: #5d3434;
+      color: #0a0a0a;
     }
   </style>
 </head>
 <body>
-
+<div class="container-fluid">
+  <div class="row">
   <nav>
     <img src="imag.png" alt="Logo" id="logo">
     <ul id="navbar-links">
       <a href="#"><li class="fab fa-facebook"></li></a>
-      
+    
       <a href="#"><li class="fab fa-instagram"></li></a>
       <a href="#"><li class="fab fa-whatsApp"></li></a>
       
@@ -59,8 +64,9 @@
       
     </ul>
   </nav>
-
+</div>
+</div>
   <!-- Rest of your HTML content goes here -->
-
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -11,5 +11,6 @@ $statement=mysqli_prepare($con,$query);
 
 mysqli_stmt_bind_param($statement,"ssss",$product,$type,$pri,$descrip);
 mysqli_stmt_execute($statement);
-echo "data submitted successfully";
+header("Location:services.php");
+
 ?>
