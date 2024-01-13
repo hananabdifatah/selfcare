@@ -1,163 +1,73 @@
-<html>
-    <head>
-        <title>about</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-            <?php
-                include("nav.html");
-                ?>
-                    
-                    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skincare Website Footer</title>
-    <script src="https:/kit.fontawesome.com/1165876da6.js"crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us -  Skincare </title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #007bff;
+    }
+
+    section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 50px;
+      background-color: #ffffff;
+    }
+
+    section img {
+      max-width: 700px;
+      border-radius: 70px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    section p {
+      max-width: 500px;
+      text-align: justify;
+    }
+  </style>
 </head>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        font-family:Arial,Helvetica, sans-serif;
-        font-size: 16px;
-        color:white;
-
-    }
-    footer{
-        background: #343434;
-        padding-top:50px;
-    }
-    .container{
-        width: 1140px;
-        margin:auto;
-        display:flex;
-        justify-content:center;
-
-    }
-    .footer-content{
-        width:33.3%
-
-    }
-    h3{
-        font-size:28px;
-        margin-bottom:15px;
-        text-align:center
-    }
-    .footer-content p{
-        width: 190px;
-        margin: auto;
-        padding: 10px;
-    }
-    .footer-content ul{
-        text-align:center;
-
-    }
-    .list{
-        padding: 0;
-
-    }
-    .list li{
-        width:auto;
-        text-align:center;
-        list-style-type:none ;
-        padding: 7px;
-        position: relative;
-    }
-    .list li::before{
-        content: '';
-        position:absolute;
-        transform: translate(-50%,-50%);
-        left:50%;
-        top:100%;
-        width: 0;
-        height:2px;
-        background:#f18930;
-        transition-duration:.5s;
-
-    }
-    
-    .list li:hover::before{
-        width: 70px;
-        
-    }
-
-    .social-icons{
-        text-align:center;
-        padding: 0;
-    }
-    .social-icons li{
-        display: inline-block;
-        text-align:center;
-        padding: 5px;
-    }
-    .social-icons i{
-        color:rgb(232, 232, 239);
-        font-size:25px;
-
-    }
-    a:hover{
-        color:#f18930;
-    }
-    .social-icons i:hover{
-        color:#f18930;
-    }
-    .bottom-bar{
-        background:#f18930;
-        text-align:center;
-        padding: 10px 0;
-        margin-top:50px;
-    }
-    .bottom-bar p{
-        color:#343434;
-        margin: 0;
-        font-size:16px;
-        padding: 7px;
-    }
-</style>
 <body>
+<div class="row">
+    <?php
+    include("nav.html");
+    ?>
+</div>
+  
+
+  <section>
+    <img src="images.jpeg" alt="About Us Image">
+    <p>
+      Welcome to Your Skincare , where beauty meets science! We are passionate about providing high-quality skincare products that nourish and enhance your skin's natural beauty.
+      <br><br>
+      Our journey began with a simple belief – everyone deserves healthy and radiant skin. We combine the latest advancements in skincare technology with natural ingredients to create products that cater to all skin types.
+      <br><br>
+      At Your Skincare , we prioritize transparency and authenticity. We believe in empowering our customers to make informed choices about their skincare routine. Each product is crafted with care, free from harmful chemicals, and cruelty-free.
+      <br><br>
+      Whether you're looking for effective cleansers, rejuvenating serums, or soothing moisturizers, we have something for everyone. Join us on our mission to transform your skincare routine and embrace the beauty that lies within.
+    </p>
+  </section>
+    <div class="row">
     
-<Footer>
-    <div class="container">
-        <div class="footer-content">
-            <h3>contact us</h3>
-            <p>Email:cabdifatahhanan.@gmail.com</p>
-            <p>phone:0774723274</p>
-            <p>address:hoima road, Kampala, Uganda</p>
-        </div>
-        <div class="footer-content">
-            <h3>links</h3>
-            <ul class="list">
-            <li><a href="index.php">Home</a></li>
-             <li><a href="services.php">services</a></li>
-            <li><a href="add.php">blog</a></li>
-            <li><a href="about.php">about</a></li>
-             <li><a href="display.php">display</a></li>
-             <li><a href="contact.php">Contact</a></li>
-            </ul>
-        </div>
-        <div class="footer-content">
-            <h3>follow us</h3>
-            <ul class="social-icons">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-    
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-whatsApp"></i></a>
-            </ul>
-        </div>
+      <?php
+     include("footer.html");
+     ?>
+              
     </div>
-    <div class="bottom-bar">
-        <p>&copy;2024 our secret Secret Beauty. All right reserved </p>
-    </div>
-</Footer>
-</body> 
-            </div>
-            
-        
-          <script src="js/bootstrap.min.js"></script>
-    </body>
+</body>
 </html>

@@ -138,7 +138,7 @@
         </div>
     </div>
     <div class="bottom-bar">
-        <p>&copy;2024 our secret Secret Beauty. All right reserved </p>
+        <p>&copy;2024 our self-care. All right reserved </p>
     </div>
 </Footer>
 </body>

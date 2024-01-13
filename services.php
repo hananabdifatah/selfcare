@@ -47,7 +47,7 @@ $result=mysqli_query($con,$query);
                                <td><?php echo $row["skintype"];?></td>
                                <td><?php echo $row["price"];?></td>
                                <td><?php echo $row["productdescription"];?></td>
-                               <td><a href="update_form.php?id=<?php  echo $row['ID'];?>">update data</a></td>
+                               
                             </tr>
                                 <?php
                                 }

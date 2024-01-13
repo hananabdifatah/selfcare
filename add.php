@@ -37,7 +37,11 @@
 
             </div>
          </div>
-              
+              <div>
+                <?php
+                include("footer.html");
+                ?>
+              </div>
               <script src="js/bootstrap.min.js"></script>
        
     </body>

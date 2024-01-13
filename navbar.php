@@ -3,62 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
+    /* Custom styles can be added here */
     body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
+      padding-top: 100px; /* Adjusted for the fixed navbar height */
     }
 
-    nav {
-      background-color: #999;
-      padding: 15px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    #logo {
-      max-width: 100px;
-      height: auto;
-    }
-
-    #navbar-links {
-      display: flex;
-      gap: 20px;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-
-    #navbar-links li {
-      color: #fff;
-    }
   </style>
+  <title>Bootstrap Navbar Example</title>
 </head>
 <body>
 
-  <nav>
-    <img src="imag.png" alt="Logo" id="logo">
-    <ul id="navbar-links">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+  <a class="navbar-brand" href="#">
+    <img src="imag.png" width="1400" height="1400" class="d-inline-block align-top" alt="Logo">
     
-      <a href="#"><li class="fab fa-facebook"></li></a>
-    
-      <a href="#"><li class="fab fa-instagram"></li></a>
-      <a href="#"><li class="fab fa-whatsApp"></li></a>
-      
-      <li><a href="index.php">Home</a></li>
-      <li><a href="services.php">services</a></li>
-      <li><a href="add.php">blog</a></li>
-      <li><a href="about.php">about</a></li>
-      <li><a href="display.php">display</a></li>
-      <li><a href="contact.php">Contact</a></li>
-      <a href="#" id="login-btn">Login</a>
-      
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="services.php">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.php">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="display.php">product</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="add.php">add</a>
+      </li>
     </ul>
-    </ul>
-  </nav>
+  </div>
+</nav>
 
-  <!-- Rest of your HTML content goes here -->
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 </html>
